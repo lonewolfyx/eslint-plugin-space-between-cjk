@@ -1,23 +1,24 @@
 {
-  "name": "eslint-plugin-space-between-cjk",
-  "version": "0.0.0",
-  "description": "",
-  "author": "lonewolfyx",
-  "license": "MIT",
-  "homepage": "https://github.com/lonewolfyx/eslint-plugin-space-between-cjk#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lonewolfyx/eslint-plugin-space-between-cjk.git"
-  },
-  "bugs": "https://github.com/lonewolfyx/eslint-plugin-space-between-cjk/issues",
-  "scripts": {
-    "lint": "eslint",
-    "lint:fix": "eslint --fix"
-  },
-  "keywords": [],
-  "packageManager": "pnpm@10.30.3",
-  "devDependencies": {
-    "@antfu/eslint-config": "^8.2.0",
-    "eslint": "^10.2.1"
-  }
+    "name": "eslint-plugin-space-between-cjk",
+    "version": "0.0.0",
+    "packageManager": "pnpm@10.30.3",
+    "description": "",
+    "author": "lonewolfyx",
+    "license": "MIT",
+    "homepage": "https://github.com/lonewolfyx/eslint-plugin-space-between-cjk#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lonewolfyx/eslint-plugin-space-between-cjk.git"
+    },
+    "bugs": "https://github.com/lonewolfyx/eslint-plugin-space-between-cjk/issues",
+    "keywords": [],
+    "scripts": {
+        "lint": "eslint",
+        "lint:fix": "eslint --fix"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^8.2.0",
+        "eslint": "^10.2.1",
+        "jiti": "^2.6.1"
+    }
 }
