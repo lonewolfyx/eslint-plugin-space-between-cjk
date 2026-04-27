@@ -11,12 +11,18 @@ importers:
       '@antfu/eslint-config':
         specifier: ^8.2.0
         version: 8.2.0(@typescript-eslint/rule-tester@8.59.0(eslint@10.2.1(jiti@2.6.1))(typescript@6.0.3))(@typescript-eslint/typescript-estree@8.59.0(typescript@6.0.3))(@typescript-eslint/utils@8.59.0(eslint@10.2.1(jiti@2.6.1))(typescript@6.0.3))(@vue/compiler-sfc@3.5.33)(eslint@10.2.1(jiti@2.6.1))(typescript@6.0.3)
+      '@lonewolfyx/tsconfig':
+        specifier: ^0.0.6
+        version: 0.0.6(typescript@6.0.3)
       eslint:
         specifier: ^10.2.1
         version: 10.2.1(jiti@2.6.1)
       jiti:
         specifier: ^2.6.1
         version: 2.6.1
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
 
 packages:
 
@@ -205,6 +211,11 @@ packages:
 
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
+
+  '@lonewolfyx/tsconfig@0.0.6':
+    resolution: {integrity: sha512-KWMWUmf/7S9Jsvox+3o57XnJ1iadGZaq2R+og9hWoGIa26HG7sC/lSU/YapXvff7An0nXhB2wcoFJrHHdLtFjQ==}
+    peerDependencies:
+      typescript: ^5.8.2
 
   '@ota-meshi/ast-token-store@0.3.0':
     resolution: {integrity: sha512-XRO0zi2NIUKq2lUk3T1ecFSld1fMWRKE6naRFGkgkdeosx7IslyUKNv5Dcb5PJTja9tHJoFu0v/7yEpAkrkrTg==}
@@ -1471,6 +1482,10 @@ snapshots:
   '@humanwhocodes/retry@0.4.3': {}
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
+
+  '@lonewolfyx/tsconfig@0.0.6(typescript@6.0.3)':
+    dependencies:
+      typescript: 6.0.3
 
   '@ota-meshi/ast-token-store@0.3.0': {}
 
