@@ -1,0 +1,17 @@
+{
+  "name": "eslint-plugin-space-between-cjk",
+  "version": "0.0.0",
+  "description": "",
+  "author": "lonewolfyx",
+  "license": "MIT",
+  "homepage": "https://github.com/lonewolfyx/eslint-plugin-space-between-cjk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonewolfyx/eslint-plugin-space-between-cjk.git"
+  },
+  "bugs": "https://github.com/lonewolfyx/eslint-plugin-space-between-cjk/issues",
+  "scripts": {
+  },
+  "keywords": [],
+  "packageManager": "pnpm@10.30.3"
+}
