@@ -10,7 +10,10 @@
     "url": "git+https://github.com/lonewolfyx/eslint-plugin-space-between-cjk.git"
   },
   "bugs": "https://github.com/lonewolfyx/eslint-plugin-space-between-cjk/issues",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
   "keywords": [],
   "packageManager": "pnpm@10.30.3",
   "devDependencies": {
