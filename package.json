@@ -14,7 +14,8 @@
     "keywords": [],
     "scripts": {
         "lint": "eslint",
-        "lint:fix": "eslint --fix"
+        "lint:fix": "eslint --fix",
+        "test": "vitest"
     },
     "devDependencies": {
         "@antfu/eslint-config": "^8.2.0",
